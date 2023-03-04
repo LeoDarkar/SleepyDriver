@@ -22,7 +22,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/comfortaa_bold"
             android:gravity="center"
-            android:text="@string/app_name"
+            android:text="Detección"
             android:textColor="@color/blue"
             android:textSize="30sp"
             android:textStyle="bold" />
@@ -95,7 +95,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:fontFamily="@font/comfortaa_bold"
-            android:text="Set current device as"
+            android:text="Vincular dispositivo"
             android:textColor="@color/blue"
             android:textSize="22sp"
             android:textStyle="bold"

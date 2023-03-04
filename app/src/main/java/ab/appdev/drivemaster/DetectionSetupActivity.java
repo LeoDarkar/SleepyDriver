@@ -15,7 +15,6 @@ import android.widget.ImageView;
 import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.zxing.WriterException;
@@ -52,15 +51,15 @@ public class DetectionSetupActivity extends AppCompatActivity {
 
                 if (0 <= progress & progress <= 3) {
                     //sensitivityBar.color
-                    sensitivityShowingLabel.setText("LOWER IS MORE SAFE");
+                    sensitivityShowingLabel.setText("BAJO ES MAS SEGURO");
                     sensitivityShowingLabel.setBackgroundColor(Color.GREEN);
                     sensitivityShowingLabel.setTextColor(Color.BLACK);
                 } else if (4 <= progress && progress <= 8) {
-                    sensitivityShowingLabel.setText("LOOKING SAFE FOR YOU");
+                    sensitivityShowingLabel.setText("MEDIANAMENTE SEGURO");
                     sensitivityShowingLabel.setBackgroundColor(Color.YELLOW);
                     sensitivityShowingLabel.setTextColor(Color.BLACK);
                 } else {
-                    sensitivityShowingLabel.setText("NO SAFETY AT ALL");
+                    sensitivityShowingLabel.setText("NO SEGURO DEL TODO");
                     sensitivityShowingLabel.setBackgroundColor(Color.RED);
                     sensitivityShowingLabel.setTextColor(Color.WHITE);
                 }
@@ -68,7 +67,7 @@ public class DetectionSetupActivity extends AppCompatActivity {
 
             @Override
             public void onStartTrackingTouch(SeekBar seekBar) {
-                Toast.makeText(getApplicationContext(), "Set Sensitivity", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Elige la Sensibilidad", Toast.LENGTH_SHORT).show();
             }
 
             @Override

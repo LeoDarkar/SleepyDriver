@@ -31,21 +31,21 @@ public class Configurable {
 
         introList.add(
                 new IntroViewItem(
-                        "Car companion",
-                        "attach your device infront of driver. Get alerted if drowsiness detected",
+                        "Copiloto",
+                        "Conecte su dispositvo con el copiloto o un pasajero y reciban alertas si se detecta somnolencia",
                         R.drawable.senderimg)
         );
         introList.add(
                 new IntroViewItem(
-                        "Scan QR and Connect",
-                        "device Detection companion and receive alert in realtime",
+                        "Conexión por código QR",
+                        "Alerta de detección en tiempo en real para chofer y copiloto",
                         R.drawable.recieverimg                )
         );
         introList.add(
                 new IntroViewItem(
-                        "Eye Sense",
-                        "Your travel-drowsiness scanning companion",
-                        R.mipmap.ic_launcher)
+                        "Ditec",
+                        "Nuestra empresa se dedica a la detección de somnolencia en conductores",
+                        R.drawable.logditec)
         );
 
 

@@ -61,7 +61,7 @@
         android:background="@drawable/blue_curve_button"
         android:onClick="nightSwitch"
         android:padding="10dp"
-        android:text="Night Mode is OFF"
+        android:text="El modo noche esta apagado"
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

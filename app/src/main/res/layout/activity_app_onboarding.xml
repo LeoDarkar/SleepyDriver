@@ -22,7 +22,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/comfortaa_bold"
             android:gravity="center"
-            android:text="@string/app_name"
+            android:text="Detección"
             android:textColor="@color/blue"
             android:textSize="30sp"
             android:textStyle="bold" />
@@ -36,7 +36,7 @@
         android:gravity="center"
         android:onClick="onClose"
         android:padding="5dp"
-        android:text="Close"
+        android:text="Cerrar"
         android:textColor="@color/blue"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="@+id/linearLayout3"
@@ -50,8 +50,10 @@
         android:elevation="-1dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         tools:ignore="SpeakableTextPresentCheck">
 
     </androidx.viewpager.widget.ViewPager>
@@ -66,7 +68,7 @@
         android:background="@drawable/white_curve_button"
         android:letterSpacing="1"
         android:onClick="nextPressed"
-        android:text="NEXT"
+        android:text="SIGUIENTE"
         android:textColor="@color/blue"
         android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"

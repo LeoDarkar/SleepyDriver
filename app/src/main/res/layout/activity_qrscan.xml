@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:fontFamily="@font/comfortaa_bold"
-        android:text="EyeSense Detection QR Scan"
+        android:text="Escanea el código QR"
         android:textColor="@android:color/black"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/camview"

@@ -7,15 +7,17 @@
 
     <ImageView
         android:id="@+id/intro_image"
-        android:layout_width="300dp"
-        android:layout_height="200dp"
+        android:layout_width="415dp"
+        android:layout_height="367dp"
         android:scaleType="fitCenter"
         android:src="@mipmap/ic_launcher_round"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHeight_percent="0.3"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.222"
+        app:srcCompat="@drawable/logditec" />
 
     <TextView
         android:id="@+id/intro_title"
